@@ -1,0 +1,288 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+.searchNavbar {
+  background-color: #4c4b4a;
+  height: 60px;
+}
+
+.searchNavbar .left {
+  width: 395px;
+}
+
+.searchNavbar .center {
+  height: 100%;
+}
+
+.searchNavbar .center a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 16px;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(86, 85, 84);
+  border-right: 1px solid #4c4b4a;
+  text-transform: uppercase;
+}
+
+.searchNavbar .center a i {
+  padding-right: 15px;
+}
+
+.right {
+  height: 100%;
+  display: flex;
+  padding-right: 16px;
+}
+
+.right a {
+  color: #fff;
+  display: inline-block;
+  height: 100%;
+  align-items: center;
+  justify-content: end;
+}
+
+.right a i {
+  font-size: 24px;
+}
+
+.div-wrap {
+  width: 100%;
+  justify-content: space-between;
+}
+/* 
+sidebar */
+
+.sideBar {
+  min-width: 314px;
+  width: 314px;
+  padding: 12px 10px 12px 12px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1215686275);
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-height .textLoai {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.breakLine {
+  height: 2px;
+  width: 100%;
+  background-color: #c9c9c9;
+  margin: 4px 0;
+}
+
+.div-input-wrap {
+  margin-top: 10px;
+}
+
+.div-input {
+  margin-bottom: 5px;
+  color: #00000099;
+}
+
+.div-input input {
+  margin-right: 5px;
+  width: 24px;
+}
+
+.div-input label {
+  font-weight: 600;
+}
+
+.items {
+  font-size: 21px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+
+.pa-4 {
+  padding: 16px;
+}
+
+.pb-0 {
+  padding-bottom: 0px !important;
+}
+
+.pb-0 h3 {
+  font-size: 16.38px;
+  color: #000000de;
+  font-weight: 600;
+}
+
+.species-card {
+  box-shadow: 0 0.0625rem 0.0625rem 0 rgba(134, 77, 0, 0.25);
+  border: 0.0625rem solid #d6d6d6;
+}
+
+.pa-3 {
+  padding: 12px;
+}
+
+.v-image {
+  height: 256px;
+  background-size: cover;
+}
+
+.v-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.loai {
+  font-size: 14px;
+  color: #080100;
+  font-weight: 600;
+}
+
+.pl-4 {
+  padding-left: 16px;
+}
+
+.fontSize-18 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pr-3 {
+  padding-right: 12px;
+}
+
+.canvas {
+  height: 60px;
+  aspect-ratio: 1/1;
+  background-size: cover;
+}
+
+.ali {
+  align-items: center;
+}
+
+.width-292 {
+  width: 292px;
+}
+
+.plr-2 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.ptb-3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.pt-3 {
+  padding-top: 12px !important;
+}
+
+.phan-hang {
+  color: #000000de;
+}
+.phan-hang i {
+  font-size: 24px;
+  padding-right: 8px;
+}
+
+.button {
+  border: none;
+  height: 44px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+.button1 {
+  background-color: rgb(233, 30, 99);
+}
+
+.button2 {
+  background-color: rgb(244, 67, 54);
+}
+
+.div-button {
+  margin-left: 105px;
+}
+
+.break-line {
+  height: 2px;
+  background-color: #c9c9c9;
+  margin: 40px 0 4px 0;
+}
+
+.save {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.ro-90 {
+  transform: rotate(90deg);
+}
+
+.items a {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+
+.itemsChildren {
+  color: #000000de;
+  font-size: 16px;
+  display: none;
+  font-weight: 400;
+}
+
+.itemsChildren div {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+}
+
+.itemsChildren input {
+  margin-right: 10px;
+}
+
+._isActive div {
+  display: block;
+}
+
+._isActive i {
+  transform: rotate(90deg);
+}
+
+.inputConTrolMenuChild {
+  width: 100%;
+  max-height: 304px;
+  top: 45px;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.search-ket-qua {
+  padding: 0 16px;
+  min-height: 40px;
+}
+
+.search-ket-qua:hover {
+  background-color: #f6f6f6;
+}
